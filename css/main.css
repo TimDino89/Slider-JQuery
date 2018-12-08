@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#js-slider {
+  width: 700px;
+  margin: 50px auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.slider-list {
+  position: relative;
+  right: 0;
+  font-size: 0;
+  transition: .5s;
+}
+
+.js-slider-item {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+#js-slider-btns {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 20px;
+  padding: 5px 20px;
+  border: 1ps solid #333;
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
